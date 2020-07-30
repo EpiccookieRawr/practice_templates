@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Dog adoption site</title>
+        <title>pet adoption site</title>
         <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="./vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="./vendors/css/grid.css">
@@ -13,7 +13,7 @@
         <div id="image-license" class="row"><a href='https://www.freepik.com/free-photos-vectors/logo'>Logo vector created by freepik - www.freepik.com</a></div>
         <nav>
             <div class="row">
-                <img class="website-logo" src="./resources/img/logo.png" alt="dog logo">
+                <img class="website-logo" src="./resources/img/logo.png" alt="pet logo">
                 <ul class="nav-links">
                     <li>Display language:&nbsp;<a class="original-link" href="#">English</a></li>
                     <li><a href="#" class="btn btn-ghost">Log in</a></li>
@@ -23,14 +23,14 @@
         </nav>
         <div class="hero-text-box row">
             <div class="col span-1-of-2">
-                <h1>Best Website for picking a dog</h1>
+                <h1>Best Website for picking a pet</h1>
                 <p>I want to adopt....</p>
-                <div class="dog-options">
-                    <select name="dog-name">
+                <div class="pet-options">
+                    <select name="pet-name">
                         <option>Dachshund</option>
                             <option>Dalmatian</option>
                             <option>Dandie Dinmont Terrier</option>
-                            <option>Danish-Swedish Farmdog</option>
+                            <option>Danish-Swedish Farmpet</option>
                             <option>Dingo</option>
                             <option>Doberman Pinscher</option>
                     </select>
@@ -44,35 +44,96 @@
     </header>
     <section class="explain-section">
         <div class="row why-adopt">
-            <h2>Why adopt a dog?</h2>
+            <h2>Why adopt a pet?</h2>
             <p class="long-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illum laboriosam placeat adipisci neque earum cupiditate error provident iusto doloremque qui fugiat culpa, expedita aperiam ad, maiores sed voluptatum soluta.</p>
             <a href="#" class="process-link">Click to start!</a>
         </div>
         <div class="row pet-benefits">
-            <div class="col span-1-of-4">
+            <div class="col span-1-of-4 box">
                 <i class="ion-home"></i>
                 <h3>You'll Be a Hero</h3>
                 <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptates obcaecati, corporis hic reiciendis perspiciatis! Ab, aut modi?</P>
             </div>
-            <div class="col span-1-of-4">
+            <div class="col span-1-of-4 box">
                 <i class="ion-ios-body"></i>
                 <h3>You'll have a #1 fan</h3>
                 <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptates obcaecati, corporis hic reiciendis perspiciatis! Ab, aut modi?</P>
             </div>
-            <div class="col span-1-of-4">
+            <div class="col span-1-of-4 box">
                 <i class="ion-chatbubble"></i>
                 <h3>You'll have a support system</h3>
                 <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptates obcaecati, corporis hic reiciendis perspiciatis! Ab, aut modi?</P>
             </div>
-            <div class="col span-1-of-4">
+            <div class="col span-1-of-4 box">
                 <i class="ion-ios-basketball"></i>
                 <h3>A lot of laughs</h3>
                 <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptates obcaecati, corporis hic reiciendis perspiciatis! Ab, aut modi?</P>
             </div>
         </div>
     </section>
-    <section class="dog-pictures">
-
+    <section class="pet-pictures clearfix">
+        <ul class="pet-row">
+            <li>
+                <figure class="pet-images">
+                    <img src="./resources/img/pet-1.jpg" alt="pet-image-1" />
+                </figure>
+            </li>
+            <li>
+                <figure class="pet-images">
+                    <img src="./resources/img/pet-2.jpg" alt="pet-image-2" />
+                </figure>
+            </li>
+            <li>
+                <figure class="pet-images">
+                    <img src="./resources/img/pet-3.jpg" alt="pet-image-3" />
+                </figure>
+            </li>
+            <li>
+                <figure class="pet-images">
+                    <img src="./resources/img/pet-4.jpg" alt="pet-image-4" />
+                </figure>
+            </li>
+        </ul>
+        <ul class="pet-row">
+            <li>
+                <figure class="pet-images">
+                    <img src="./resources/img/pet-5.jpg" alt="pet-image-5" />
+                </figure>
+            </li>
+            <li>
+                <figure class="pet-images">
+                    <img src="./resources/img/pet-6.jpg" alt="pet-image-6" />
+                </figure>
+            </li>
+            <li>
+                <figure class="pet-images">
+                    <img src="./resources/img/pet-7.jpg" alt="pet-image-7" />
+                </figure>
+            </li>
+            <li>
+                <figure class="pet-images">
+                    <img src="./resources/img/pet-8.jpg" alt="pet-image-8" />
+                </figure>
+            </li>
+        </ul>
+    </section>
+    <section class="download-app-section">
+        <div class="row">
+            <div class="col span-1-of-2 steps-box">
+                    <img  class="phone-image" src="./resources/img/phone-markup.png" />
+            </div>
+            <div class="col span-1-of-2 steps-box">
+                <ul class="step-section">
+                    <li class="steps"> <span>1</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi dignissimos labore.</li>
+                    <li class="steps"> <span>2</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi dignissimos labore.</li>
+                    <li class="steps"> <span>3</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi dignissimos labore.</li>
+                </ul>
+                <div class="app-download-section">
+                    <img src="resources/img/download-app.svg" alt="apple-download-link"/>
+                    <img src="resources/img/download-app-android.png" alt="android-download-link"/>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html> 
