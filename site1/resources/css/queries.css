@@ -33,6 +33,8 @@
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
+
+
     .row {
         padding: 0 8%;
     }
@@ -51,10 +53,11 @@
     }
 
     .pet-options button {
-        width: 140px;
+        width: 120px;
         margin-left: 5px;
         position: relative;
         top: 8px;
+        letter-spacing: 1px;
     }
 
     .hero-img {
@@ -69,6 +72,7 @@
 
     .pet-benefits .col {
         width: 100%;
+        margin: 0;
     }
 
     .pet-images {
@@ -111,11 +115,88 @@
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-    
+    h2 {
+        font-size: 250%;
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero-text-box > div:last-child {
+        display: none;
+    }
+
+    .hero-text-box div:first-child {
+        width: 100%;
+    }
+
+    .hero-text-box h1, .hero-text-box p {
+        text-align: center;
+    }
+
+    .pet-options {
+        padding: 0 10%;
+    }
+
+    .steps-box {
+        width: 100%;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+        padding-right: 0%;
+    }
+
+    .phone-image {
+        width: 200px;
+    }
+
+    .steps-box:last-child {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    blockquote {
+        margin-bottom: 40px;
+    }
+
+    .footer-nav {
+        margin-bottom: 10px;
+    }
+
+    .footer-extra .col {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+
+    .copyrights, .social-links {
+        padding: 10px 0px;
+    }
+
+    .copyrights {
+        top: 0px;
+    }
+
+    .social-links {
+        float: none;
+    }
 }
 
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+    .pet-images {
+        width: 100%;
+    }
+    
+    .long-copy {
+        line-height: 120%;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 15px;
+    }
 }
 
