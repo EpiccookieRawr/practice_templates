@@ -28,6 +28,15 @@ body {
     visibility: hidden;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
 /* ----------------------------------------------- */
 /* HTML TAGS */
 /* ----------------------------------------------- */
@@ -146,15 +155,6 @@ nav {
     background-color: #ff7535;
     padding-top: 20px;
     padding-bottom: 10px;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: 0 2px 2px #efefef;
-    z-index: 9999;
 }
 
 #image-license {
